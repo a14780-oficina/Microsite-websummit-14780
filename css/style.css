@@ -1,0 +1,369 @@
+/* FUNDO GERAL */
+body {
+    background-color: white;
+    margin: 0;
+}
+
+/* CABEÇALHO / NAVBAR */
+.barra-navegacao {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.logo-site {
+    width: 145px;
+    height: auto;
+}
+
+.lista-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.link-menu {
+    color: #20203F;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.link-menu:hover {
+    color: #E6007E;
+}
+
+/* BOTÕES DO CABEÇALHO */
+.botoes-evento {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.botao-bilhetes {
+    background: linear-gradient(to right, #E6007E, #793DAA, #00BFAF);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.botao-bilhetes:hover {
+    color: white;
+    opacity: 0.9;
+}
+
+.botao-exhibit {
+    background-color: #00BFAF;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.botao-exhibit:hover {
+    background-color: #009F95;
+    color: white;
+}
+
+/* FUNDO DA SECÇÃO PRINCIPAL */
+.secao-principal {
+    background: linear-gradient(to right, #E6007E, #793DAA, #00BFAF);
+    padding: 45px 0;
+}
+
+/* TÍTULO PRINCIPAL */
+.titulo-principal {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+/* IMAGEM PRINCIPAL */
+.imagem-principal {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+/* CARTÃO DE DESTAQUE */
+.cartao-destaque {
+    background: linear-gradient(135deg, #542765, #303D65, #246078);
+    color: white;
+    border: 1px solid #17172B;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+/* TÍTULO DO CARTÃO */
+.cartao-destaque h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* DATA DO EVENTO */
+.data-evento {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: white;
+}
+
+/* BOTÃO COMPRAR BILHETES DO CARTÃO */
+.cartao-destaque .botao-bilhetes {
+    text-align: center;
+    padding: 12px;
+}
+
+/* BOTÃO EXPLORAR DO CARTÃO */
+
+
+/* RODAPÉ */
+.rodape {
+    background-color: white;
+    color: #20203F;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+/* DAQUI PARA BAIXO E DO PROGAMA */
+
+
+/* CARTÕES DO PROGRAMA */
+.cartao-programa {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* CABEÇALHO DOS DIAS */
+.cabecalho-dia {
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.cabecalho-dia h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cabecalho-dia p {
+    margin: 5px 0 0;
+}
+
+/* CORES DOS DIAS */
+.dia-rosa {
+    background: linear-gradient(to right, #E6007E, #C02A91);
+}
+
+.dia-roxo {
+    background: linear-gradient(to right, #793DAA, #57418E);
+}
+
+.dia-turquesa {
+    background: linear-gradient(to right, #00AFA5, #24566D);
+}
+
+/* ATIVIDADES */
+.atividade {
+    border-bottom: 1px solid #eee; /* CRIA A LINHA DE SEPARAÇÃO ENTRE AS ATIVIDADES */
+    padding: 15px 0;
+}
+
+.atividade:last-child {
+    border-bottom: none;
+}
+
+.atividade span {
+    color: #E6007E;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.atividade h5 {
+    color: #20203F;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.atividade p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+.paragrafo {
+    color : white 
+}
+
+
+
+
+/* ORADORES */
+
+
+/* FUNDO GERAL */
+body {
+    background-color: white;
+    margin: 0;
+}
+
+/* CABEÇALHO */
+.barra-navegacao {
+    background-color: white;
+    padding: 15px 0;
+}
+
+.logo-site {
+    width: 145px;
+}
+
+.link-menu {
+    color: #20203F;
+}
+
+.link-menu:hover {
+    color: #E6007E;
+}
+
+.botoes-evento {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.botao-bilhetes {
+    background: linear-gradient(to right, #E6007E, #793DAA, #00BFAF);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.botao-bilhetes:hover {
+    color: white;
+    opacity: 0.9;
+}
+
+.botao-exhibit {
+    background-color: #00BFAF;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* TÍTULO */
+.secao-principal {
+    background-color: #20203F;
+    color: white;
+    padding: 65px 0;
+    margin-bottom: 45px;
+}
+
+.titulo-principal {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/* CARTÕES DOS ORADORES */
+
+
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #793DAA;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-text {
+    color: #555;
+    font-size: 15px;
+}
+
+.card-inscricao {
+    background: linear-gradient(90deg, #E6007E, #793DAA, #00BFAF);
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: #F2F2F2;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+
+/*CONTACTOS*/
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* PATROCINADORES */
+.patrocinadores {
+    background-color: #F2F2F2;
+    padding: 50px 0;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.patrocinadores h2 {
+    color: #20203F;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.patrocinadores img {
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+}
+
+.patrocinadores .row {
+    row-gap: 50px;
+}
+
